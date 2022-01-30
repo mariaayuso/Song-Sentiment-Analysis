@@ -12,7 +12,6 @@ library(igraph)
 library(ggraph)
 
 # Insert data
-setwd("C:/Users/maria/OneDrive/Escritorio/Master/Intelligent Systems/NLP/SONG")
 ari <- read.csv("csv/ArianaGrande.csv", encoding = "UTF-8", na.strings = "nan")
 bey <- read.csv("csv/Beyonce.csv", encoding = "UTF-8", na.strings = "nan")
 eil <- read.csv("csv/BillieEilish.csv", encoding = "UTF-8", na.strings = "nan")
